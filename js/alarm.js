@@ -45,7 +45,7 @@ $("#alarme").click(function(){
 
   const timer=setInterval(() => {
     const sonnerie=alarm(time,desc);
-    //Quand l'alarme sonne 
+
     if(sonnerie==="1")
     {
       clearInterval(timer);
