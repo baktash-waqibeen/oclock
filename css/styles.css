@@ -14,16 +14,13 @@ header {
 
   body {
     background: yellowgreen;
-    justify-content: center;
-    align-items: center;
-    min-height: 60vh;
+    height: 100vh;
+    width: 100%;
     overflow: hidden;
-    display: flex; 
-    justify-content: center;
-    margin: 0 auto;
   }
   
   .clock {
+    margin-top: 8%;
     width: 200px;
     height: 200px;
     background-color: rgba(255, 255, 255, .8);
@@ -83,6 +80,13 @@ header {
     transform: translate(-50%, -50%);
     border-radius: 50%;
   }
+
+  section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
   
   .clock .hand.second {
     width: 3px;
@@ -101,6 +105,155 @@ header {
     height: 35%;
     background-color: black;
   }
+
+  h1
+{
+    display: flex;
+    font-size: 60px;
+    justify-content: center;
+    text-transform: uppercase;
+    /*font-family: 'Comfortaa', cursive;*/
+    font-family :'digital';
+    text-shadow: 0 0 15px #00FFFC, 2px 3px 3px #141414, 0 0 50px #00D4D1;
+    color:white;
+}
+
+h2
+{
+    font-size:1.3em;
+    font-weight: bold;
+    color:#00E5D3;
+    font-family: 'Comfortaa', cursive;
+}
+
+a{
+    /*color:black;*/
+    text-decoration: none;
+}
+
+p a:hover
+{
+    color:#001EFF;
+}
+
+form
+{
+    text-align: center;
+    margin:0;
+}
+
+p,li
+{
+    font-size:1.2em;
+    font-family: 'Comfortaa', cursive;
+    color:#00E5D3;
+}
+
+button, input
+{
+    margin:5px;
+    padding:12px;
+    border-radius: 30px;
+    font-size: 1em;
+    box-shadow: none;
+    transition: all 0.7s ease 0s;
+    cursor: pointer;
+    outline: none;
+    width: fit-content;
+    font-family: 'Comfortaa', cursive;
+}
+
+button,input[type="submit"]
+{
+    background-color: white;
+}
+
+
+button:hover,input[type="submit"]:hover
+{
+    background-color: #00E5D3;
+    transition: all 0.7s ease 0s;
+}
+
+.panneau
+{
+    width: 100vw;
+    display:flex;
+    justify-content: center;
+    flex-direction:column ;
+    align-items: center;
+    height: 80vh;
+}
+
+main{
+  display: flex; 
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+}
+
+.bloc
+{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    width: 100vw;
+    height: 40vh;
+}
+
+label
+{
+    font-size:1.4em;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    margin:10px;
+}
+
+/*OCLOCK*/
+
+.boutons
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.boutons div
+{
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    align-items: center;
+    color: white;
+    font-family: 'Comfortaa', cursive;
+}
+
+.icone
+{
+    width: 50px;
+    margin:5px;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
+.icone:hover
+{
+    transform: scale(1.2);
+}
+
+  #table
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    margin:30px;
+}
   
 
 

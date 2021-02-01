@@ -4,14 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="js/scriptTimer.js"></script>
   <link href="css/styles.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet">
   <script defer src="js/script.js"></script>
   <title>Clock</title>
 </head>
 
 <body>
   <main>
-      <h1>Don't watch the clock, do what it does. Keep going!</h1>
     <div class="clock">
       <div class="hand hour" data-hour-hand></div>
       <div class="hand minute" data-minute-hand></div>
@@ -30,11 +31,25 @@
       <div class="number number12">12</div>
     </div>
 
-    <?php 
-    include "timer.php";
-    
-    ?>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script
+src="https://code.jquery.com/jquery-3.4.1.js"
+integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+crossorigin="anonymous"></script>
+<script src="alarm.js"></script>
+
+</main>
+
+<?php include "timer.php"; ?>
+
+<section class="panneau">
+    <section class="bloc">
+    </section>
+  <section class="boutons">
+    <div><img class="icone" alt="alarme" src="img/alarme_b.png" id="alarme"/>Alarm</div>
+  </section>
+</section>
+
   </body>
   </html>
-  </main>
 

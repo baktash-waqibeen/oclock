@@ -1,13 +1,11 @@
-<!DOCTYPE html>
-<html>
 <head>
   <title>Javascript Stopwatch</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
-<link rel="stylesheet" href="css/timerStyle.css">
-<link rel="stylesheet" href="js/scriptTimer.js">
+  <link rel="stylesheet" href="css/timerStyle.css">
+  <link rel="stylesheet" href="style.css">
+
 </head>
-<body id="stopwatch">
 <div id="timerContainer">
 <div class="timer" onclick="startTimer()">Start Timer!</div>
 <div class="startTimer reset" onclick="startTimer()" >
@@ -19,5 +17,3 @@
 <div class="resetTimer reset" onclick="resetTimer()">Reset</div>
 </div>
 <script type="text/javascript" src="js/scriptTimer.js"></script>
-</body>
-</html>
