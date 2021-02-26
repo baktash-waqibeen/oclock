@@ -46,7 +46,7 @@ crossorigin="anonymous"></script>
     <section class="bloc">
     </section>
   <section class="boutons">
-    <div><img class="icone" alt="alarme" src="img/alarme_b.png" id="alarme"/>Alarm</div>
+    <div><img class="icone" alt="alram" src="img/alarme.png" id="alarme"/></div>
   </section>
 </section>
 
